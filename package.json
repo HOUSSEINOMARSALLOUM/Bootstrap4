@@ -4,9 +4,12 @@
   "description": "This is a website for Ristorante Con Fusion",
   "main": "index.html",
   "scripts": {
-    "start": "npm run lite",
+    "start":"npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
+    "scss": "node-sass -o css/ css/"  
+    //fix scss above?
+    
   },
   "author": "",
   "license": "ISC",
@@ -23,3 +26,6 @@
     "popper.js": "^1.12.9"
   }
 }
+
+
+// fix the above code and add scss? 
