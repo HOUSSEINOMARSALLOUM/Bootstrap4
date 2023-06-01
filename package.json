@@ -4,10 +4,11 @@
   "description": "This is a website for Ristorante Con Fusion",
   "main": "index.html",
   "scripts": {
-    "start":"npm run watch:all",
+    "start":"npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
-    "scss": "node-sass -o css/ css/"  
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
+    "watch": "all" 
     
   },
   "author": "",
@@ -26,5 +27,3 @@
   }
 }
 
-
-// fix the above code and add scss? 
